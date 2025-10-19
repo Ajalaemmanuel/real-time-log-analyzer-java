@@ -9,9 +9,7 @@ import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * A service responsible for parsing raw log strings into LogEntry objects.
- */
+
 @Service
 public class LogParser {
 

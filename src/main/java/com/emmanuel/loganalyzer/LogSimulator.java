@@ -9,9 +9,6 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
-/**
- * A simple class to simulate a service writing to a log file.
- */
 public class LogSimulator {
     public static void main(String[] args) throws InterruptedException, IOException {
         String logFilePath = "app.log";
